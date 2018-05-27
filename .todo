@@ -1,0 +1,16 @@
+Terms:
+GSI: Game State Integration
+
+Main functionality:
+	☐ List of games
+	☐ Let the user turn off specific presences + config for some things
+	☐ CS:GO support
+		☐ Install GSI config file into game to run GSI HTTP server and listen to it
+	☐ TF2 support
+		☐ Turn on console logging through launch options if possible, to read console.log file and do whatever is appropriate
+	☐ Run on startup and start watching for game activity immediately
+
+Releasing:
+	☐ Figure out how to bundle into an app / installer
+	☐ Move deps into dev dependencies when appropriate
+

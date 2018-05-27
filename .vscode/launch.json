@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug",
+			"type": "node",
+			"timeout": 25000,
+			"request": "launch",
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": "npm: build",
+			"runtimeExecutable": "electron",
+			"args" : ["."],
+			"protocol": "inspector"
+		}
+	]
+}

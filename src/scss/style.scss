@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+
+$blurple: #7289DA;
+$greyple: #99AAB5;
+
+$primary: $blurple;
+$info: $blurple;
+$link: $blurple;
+$dark: #2C2F33;
+$black: #23272A;
+$family-sans-serif: Roboto, Segoe UI, sans-serif;
+
+@import "../../node_modules/bulma/bulma";
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}

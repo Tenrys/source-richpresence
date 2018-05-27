@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"target": "es5",
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"noUnusedParameters": true,
+		"sourceMap": true,
+		"outDir": "src/ts",
+		"baseUrl": ".",
+		"paths": {
+			"*": ["node_modules/*"]
+		},
+		"pretty": true,
+	},
+	"include": [
+		"src/ts/**/*"
+	],
+	"exclude": []
+}
